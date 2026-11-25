@@ -1,0 +1,1049 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>亚洲夜色福格三区午夜久干视 | 城市夜色影像_午夜视频品牌</title>
+<meta name="description" content="亚洲夜色福格三区午夜久干视是专注城市夜景与午夜影像的视频品牌，记录亚洲都市霓虹、夜色人文与午夜创作社区的持续活力。">
+<style>
+:root{
+  --bg:#08080d;
+  --bg2:#0d0d16;
+  --panel:#12121e;
+  --panel2:#171726;
+  --line:rgba(255,255,255,.08);
+  --line2:rgba(255,255,255,.14);
+  --txt:#e9e9f2;
+  --muted:#8b8ba3;
+  --dim:#5d5d74;
+  --accent:#ff2e63;
+  --accent2:#7b5cff;
+  --accent3:#00e0c6;
+  --gold:#ffc857;
+  --radius:16px;
+  --maxw:1180px;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  font-family:"PingFang SC","Hiragino Sans GB","Microsoft YaHei",system-ui,-apple-system,sans-serif;
+  background:var(--bg);
+  color:var(--txt);
+  line-height:1.75;
+  -webkit-font-smoothing:antialiased;
+  overflow-x:hidden;
+}
+a{color:inherit;text-decoration:none}
+ul{list-style:none}
+img{max-width:100%;display:block}
+::selection{background:var(--accent);color:#fff}
+.container{width:100%;max-width:var(--maxw);margin:0 auto;padding:0 28px}
+.mono{font-family:"SF Mono",ui-monospace,Menlo,Consolas,monospace}
+
+/* ---------- 背景装饰 ---------- */
+.bg-fx{position:fixed;inset:0;z-index:-2;pointer-events:none;background:
+  radial-gradient(900px 500px at 12% 8%,rgba(123,92,255,.16),transparent 60%),
+  radial-gradient(800px 520px at 88% 18%,rgba(255,46,99,.13),transparent 62%),
+  radial-gradient(900px 600px at 50% 100%,rgba(0,224,198,.07),transparent 65%),
+  var(--bg);}
+.grid-fx{position:fixed;inset:0;z-index:-1;pointer-events:none;opacity:.35;
+  background-image:linear-gradient(var(--line) 1px,transparent 1px),linear-gradient(90deg,var(--line) 1px,transparent 1px);
+  background-size:64px 64px;
+  mask-image:radial-gradient(ellipse at 50% 0%,#000 20%,transparent 78%);
+  -webkit-mask-image:radial-gradient(ellipse at 50% 0%,#000 20%,transparent 78%);}
+
+/* ---------- 顶部导航 ---------- */
+header.topbar{position:sticky;top:0;z-index:50;backdrop-filter:blur(18px);
+  background:rgba(8,8,13,.72);border-bottom:1px solid var(--line);}
+.nav{display:flex;align-items:center;justify-content:space-between;height:70px;gap:24px}
+.brand{display:flex;align-items:center;gap:12px;flex-shrink:0}
+.brand .mark{width:38px;height:38px;border-radius:11px;display:grid;place-items:center;
+  background:linear-gradient(135deg,var(--accent),var(--accent2));position:relative;overflow:hidden;
+  box-shadow:0 6px 20px rgba(255,46,99,.34)}
+.brand .mark::after{content:"";position:absolute;inset:0;background:linear-gradient(120deg,transparent 40%,rgba(255,255,255,.45) 50%,transparent 60%);
+  transform:translateX(-120%);animation:shine 5s infinite}
+@keyframes shine{0%,60%{transform:translateX(-120%)}80%,100%{transform:translateX(120%)}}
+.brand .mark svg{width:20px;height:20px;position:relative;z-index:2}
+.brand .name{font-size:16px;font-weight:700;letter-spacing:.4px}
+.brand .name small{display:block;font-size:10px;font-weight:500;color:var(--muted);letter-spacing:2.4px;text-transform:uppercase}
+nav.menu{display:flex;gap:6px;align-items:center}
+nav.menu a{padding:8px 13px;font-size:13.5px;color:var(--muted);border-radius:9px;transition:.25s}
+nav.menu a:hover{color:var(--txt);background:rgba(255,255,255,.05)}
+nav.menu a.on{color:var(--txt);background:rgba(255,46,99,.14);box-shadow:inset 0 0 0 1px rgba(255,46,99,.25)}
+.nav-right{display:flex;align-items:center;gap:12px;flex-shrink:0}
+.live-dot{display:inline-flex;align-items:center;gap:7px;font-size:12px;color:var(--muted)}
+.live-dot i{width:7px;height:7px;border-radius:50%;background:var(--accent3);box-shadow:0 0 0 0 rgba(0,224,198,.6);animation:pulse 2s infinite}
+@keyframes pulse{0%{box-shadow:0 0 0 0 rgba(0,224,198,.55)}70%{box-shadow:0 0 0 9px rgba(0,224,198,0)}100%{box-shadow:0 0 0 0 rgba(0,224,198,0)}}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:10px 20px;border-radius:10px;font-size:13.5px;
+  font-weight:600;border:1px solid transparent;cursor:pointer;transition:.25s;white-space:nowrap}
+.btn-primary{background:linear-gradient(135deg,var(--accent),#ff5c85);color:#fff;box-shadow:0 8px 24px rgba(255,46,99,.3)}
+.btn-primary:hover{transform:translateY(-2px);box-shadow:0 12px 30px rgba(255,46,99,.42)}
+.btn-ghost{border-color:var(--line2);color:var(--txt);background:rgba(255,255,255,.03)}
+.btn-ghost:hover{background:rgba(255,255,255,.08);border-color:rgba(255,255,255,.28)}
+.burger{display:none;width:42px;height:42px;border-radius:10px;border:1px solid var(--line2);background:transparent;
+  color:var(--txt);cursor:pointer;font-size:18px}
+
+/* ---------- Hero ---------- */
+.hero{position:relative;padding:74px 0 92px;overflow:hidden}
+.hero-inner{display:grid;grid-template-columns:1.02fr .98fr;gap:52px;align-items:center}
+.eyebrow{display:inline-flex;align-items:center;gap:9px;font-size:12px;letter-spacing:2.2px;
+  color:var(--accent3);text-transform:uppercase;border:1px solid rgba(0,224,198,.28);
+  background:rgba(0,224,198,.06);padding:6px 14px;border-radius:99px;margin-bottom:22px}
+h1{font-size:clamp(34px,5.1vw,62px);line-height:1.08;font-weight:800;letter-spacing:-.5px;margin-bottom:20px}
+h1 .grad{background:linear-gradient(100deg,var(--accent) 0%,var(--gold) 42%,var(--accent3) 88%);
+  -webkit-background-clip:text;background-clip:text;color:transparent}
+.hero p.lead{font-size:15.5px;color:var(--muted);max-width:560px;margin-bottom:30px}
+.hero-cta{display:flex;gap:14px;flex-wrap:wrap;margin-bottom:38px}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);
+  border:1px solid var(--line);border-radius:14px;overflow:hidden;max-width:520px}
+.stats div{background:var(--bg2);padding:16px 18px}
+.stats b{display:block;font-size:23px;font-weight:800;letter-spacing:-.5px;
+  background:linear-gradient(100deg,#fff,#a9a9c8);-webkit-background-clip:text;background-clip:text;color:transparent}
+.stats span{font-size:11.5px;color:var(--dim);letter-spacing:.5px}
+
+/* Hero 视频卡 */
+.player{position:relative;border-radius:22px;overflow:hidden;border:1px solid var(--line2);
+  background:#0a0a12;box-shadow:0 30px 70px rgba(0,0,0,.62),0 0 0 1px rgba(255,255,255,.03) inset}
+.player .screen{position:relative;aspect-ratio:16/10;background:
+  radial-gradient(120% 90% at 20% 10%,rgba(123,92,255,.55),transparent 55%),
+  radial-gradient(110% 100% at 85% 85%,rgba(255,46,99,.5),transparent 58%),
+  radial-gradient(90% 90% at 50% 50%,rgba(0,224,198,.22),transparent 62%),
+  #090911;overflow:hidden}
+.player .screen::before{content:"";position:absolute;inset:0;
+  background-image:linear-gradient(rgba(255,255,255,.05) 1px,transparent 1px);
+  background-size:100% 4px;opacity:.6;mix-blend-mode:overlay}
+.skyline{position:absolute;bottom:0;left:0;right:0;height:62%;opacity:.95}
+.skyline svg{width:100%;height:100%}
+.scrim{position:absolute;inset:0;background:linear-gradient(180deg,transparent 30%,rgba(4,4,9,.9) 100%)}
+.play{position:absolute;inset:0;display:grid;place-items:center;cursor:pointer}
+.play .disc{width:76px;height:76px;border-radius:50%;display:grid;place-items:center;
+  background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.35);backdrop-filter:blur(10px);
+  transition:.3s;position:relative}
+.play .disc::after{content:"";position:absolute;inset:-9px;border-radius:50%;border:1px solid rgba(255,255,255,.22);
+  animation:ring 2.6s infinite}
+@keyframes ring{0%{transform:scale(.9);opacity:.9}100%{transform:scale(1.28);opacity:0}}
+.play:hover .disc{background:var(--accent);border-color:var(--accent);transform:scale(1.06)}
+.play .disc svg{width:26px;height:26px;fill:#fff;margin-left:3px}
+.player .meta{position:absolute;left:0;right:0;bottom:0;padding:18px 20px;display:flex;align-items:flex-end;justify-content:space-between;gap:14px}
+.player .meta h3{font-size:15px;font-weight:700;margin-bottom:3px}
+.player .meta p{font-size:11.5px;color:rgba(255,255,255,.58)}
+.tag{font-size:10.5px;padding:4px 10px;border-radius:99px;background:rgba(255,46,99,.2);
+  border:1px solid rgba(255,46,99,.45);color:#ffb3c6;letter-spacing:.6px;white-space:nowrap}
+.progress{position:absolute;left:0;right:0;bottom:0;height:3px;background:rgba(255,255,255,.13)}
+.progress i{display:block;height:100%;width:34%;background:linear-gradient(90deg,var(--accent),var(--gold));box-shadow:0 0 12px var(--accent)}
+
+/* 跑马灯 */
+.marquee{border-block:1px solid var(--line);background:rgba(255,255,255,.02);overflow:hidden;padding:13px 0}
+.marquee-track{display:flex;gap:52px;width:max-content;animation:scrollx 34s linear infinite}
+.marquee span{font-size:12.5px;color:var(--dim);letter-spacing:2.6px;text-transform:uppercase;display:flex;align-items:center;gap:52px;white-space:nowrap}
+.marquee span::after{content:"";width:5px;height:5px;border-radius:50%;background:var(--accent);opacity:.7}
+@keyframes scrollx{to{transform:translateX(-50%)}}
+
+/* ---------- 通用章节 ---------- */
+section{padding:88px 0;position:relative}
+.sec-head{max-width:760px;margin-bottom:46px}
+.sec-head .kicker{font-size:12px;letter-spacing:3px;color:var(--accent);text-transform:uppercase;margin-bottom:14px;display:flex;align-items:center;gap:11px}
+.sec-head .kicker::before{content:"";width:28px;height:1px;background:var(--accent)}
+.sec-head h2{font-size:clamp(25px,3.4vw,38px);font-weight:800;line-height:1.22;letter-spacing:-.4px;margin-bottom:14px}
+.sec-head p{color:var(--muted);font-size:14.6px}
+
+/* 栏目卡片 */
+.cats{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.cat{position:relative;border:1px solid var(--line);border-radius:var(--radius);padding:26px 22px 24px;
+  background:linear-gradient(180deg,var(--panel),rgba(18,18,30,.4));transition:.32s;overflow:hidden}
+.cat::before{content:"";position:absolute;inset:0;background:radial-gradient(220px 120px at 0% 0%,rgba(255,46,99,.16),transparent 70%);opacity:0;transition:.35s}
+.cat:hover{transform:translateY(-6px);border-color:rgba(255,46,99,.32);box-shadow:0 20px 44px rgba(0,0,0,.5)}
+.cat:hover::before{opacity:1}
+.cat .ico{width:44px;height:44px;border-radius:12px;display:grid;place-items:center;margin-bottom:18px;
+  background:rgba(123,92,255,.14);border:1px solid rgba(123,92,255,.3);position:relative}
+.cat:nth-child(2) .ico{background:rgba(255,46,99,.14);border-color:rgba(255,46,99,.3)}
+.cat:nth-child(3) .ico{background:rgba(0,224,198,.12);border-color:rgba(0,224,198,.3)}
+.cat:nth-child(4) .ico{background:rgba(255,200,87,.12);border-color:rgba(255,200,87,.3)}
+.cat .ico svg{width:21px;height:21px;stroke:var(--txt);fill:none;stroke-width:1.7}
+.cat h3{font-size:16px;margin-bottom:9px;position:relative}
+.cat p{font-size:13px;color:var(--muted);line-height:1.72;position:relative}
+.cat .num{position:absolute;right:16px;top:14px;font-size:11px;color:var(--dim);letter-spacing:1px}
+
+/* 作品集 */
+.works{display:grid;grid-template-columns:repeat(6,1fr);gap:18px}
+.work{position:relative;border-radius:var(--radius);overflow:hidden;border:1px solid var(--line);
+  background:#0a0a12;cursor:pointer;transition:.35s;min-height:210px;display:flex;flex-direction:column;justify-content:flex-end}
+.work .art{position:absolute;inset:0}
+.work .art svg{width:100%;height:100%;object-fit:cover}
+.work .veil{position:absolute;inset:0;background:linear-gradient(180deg,transparent 28%,rgba(6,6,12,.92) 100%);transition:.35s}
+.work .body{position:relative;padding:18px}
+.work .body h4{font-size:14.5px;margin-bottom:5px;font-weight:700}
+.work .body p{font-size:11.5px;color:rgba(255,255,255,.55)}
+.work .dur{position:absolute;top:14px;right:14px;font-size:10.5px;padding:3px 8px;border-radius:6px;
+  background:rgba(0,0,0,.55);border:1px solid rgba(255,255,255,.14);letter-spacing:.5px;z-index:2}
+.work:hover{transform:translateY(-5px);border-color:rgba(255,46,99,.34);box-shadow:0 22px 48px rgba(0,0,0,.58)}
+.work:hover .veil{background:linear-gradient(180deg,transparent 10%,rgba(6,6,12,.96) 100%)}
+.w-a{grid-column:span 3;min-height:290px}
+.w-b{grid-column:span 3;min-height:290px}
+.w-c{grid-column:span 2}
+.w-d{grid-column:span 2}
+.w-e{grid-column:span 2}
+.works-more{display:flex;justify-content:center;margin-top:38px}
+
+/* 关于 */
+.about{display:grid;grid-template-columns:.92fr 1.08fr;gap:56px;align-items:center}
+.about-visual{position:relative;border-radius:22px;overflow:hidden;border:1px solid var(--line2);
+  aspect-ratio:4/3.4;background:
+  radial-gradient(100% 80% at 70% 15%,rgba(255,200,87,.3),transparent 60%),
+  radial-gradient(100% 90% at 20% 80%,rgba(123,92,255,.55),transparent 60%),
+  #0b0b14}
+.about-visual .city{position:absolute;bottom:0;left:0;right:0;height:70%}
+.about-visual .badge{position:absolute;left:22px;top:22px;font-size:11px;letter-spacing:2px;color:var(--gold);
+  border:1px solid rgba(255,200,87,.4);background:rgba(255,200,87,.1);padding:5px 12px;border-radius:99px}
+.about-visual .stat-box{position:absolute;right:20px;bottom:20px;left:20px;padding:16px 18px;border-radius:14px;
+  background:rgba(10,10,18,.72);backdrop-filter:blur(12px);border:1px solid var(--line2);
+  display:flex;justify-content:space-between;align-items:center;gap:10px}
+.about-visual .stat-box b{font-size:19px;display:block;letter-spacing:-.5px}
+.about-visual .stat-box span{font-size:11px;color:var(--muted)}
+.about-copy p{color:var(--muted);font-size:14.6px;margin-bottom:16px}
+.about-copy strong{color:var(--txt);font-weight:600}
+.checks{margin-top:26px;display:grid;gap:13px}
+.checks li{display:flex;gap:12px;font-size:14px;color:#c9c9da}
+.checks li i{flex-shrink:0;width:20px;height:20px;border-radius:6px;display:grid;place-items:center;
+  background:rgba(0,224,198,.13);border:1px solid rgba(0,224,198,.3);margin-top:2px}
+.checks li i svg{width:11px;height:11px;stroke:var(--accent3);stroke-width:2.4;fill:none}
+.about-copy .btn{margin-top:30px}
+
+/* 数据条 */
+.metrics{display:grid;grid-template-columns:repeat(4,1fr);border:1px solid var(--line);border-radius:18px;
+  overflow:hidden;background:var(--line);gap:1px}
+.metric{background:var(--bg2);padding:30px 24px;text-align:center;transition:.3s}
+.metric:hover{background:var(--panel2)}
+.metric b{display:block;font-size:clamp(26px,3.4vw,38px);font-weight:800;letter-spacing:-1px;
+  background:linear-gradient(120deg,#fff 10%,#9c9cbc);-webkit-background-clip:text;background-clip:text;color:transparent}
+.metric span{font-size:12px;color:var(--dim);letter-spacing:1px;margin-top:6px;display:block}
+.metric:nth-child(1) b{background:linear-gradient(120deg,#ff6b8e,#ff2e63);-webkit-background-clip:text;background-clip:text}
+.metric:nth-child(3) b{background:linear-gradient(120deg,#8fe9ff,#00e0c6);-webkit-background-clip:text;background-clip:text}
+
+/* 制作流程 */
+.flow{display:grid;grid-template-columns:repeat(5,1fr);gap:16px;position:relative}
+.flow::before{content:"";position:absolute;left:4%;right:4%;top:34px;height:1px;
+  background:linear-gradient(90deg,transparent,var(--line2),var(--line2),transparent)}
+.step{position:relative;padding-top:0}
+.step .dot{width:68px;height:68px;border-radius:50%;display:grid;place-items:center;margin-bottom:20px;
+  background:var(--bg2);border:1px solid var(--line2);position:relative;z-index:2;margin-left:0;
+  font-size:13px;letter-spacing:1px;color:var(--muted);transition:.3s}
+.step:hover .dot{border-color:var(--accent);color:#fff;background:rgba(255,46,99,.14);
+  box-shadow:0 0 0 6px rgba(255,46,99,.07)}
+.step h4{font-size:14.5px;margin-bottom:8px}
+.step p{font-size:12.6px;color:var(--muted);line-height:1.7}
+
+/* 团队 */
+.team{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.member{border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;background:var(--panel);transition:.3s}
+.member:hover{transform:translateY(-5px);border-color:var(--line2)}
+.member .face{aspect-ratio:1/1;position:relative;display:grid;place-items:center;overflow:hidden}
+.member .face span{font-size:40px;font-weight:800;letter-spacing:-2px;color:rgba(255,255,255,.85);position:relative;z-index:2}
+.member .face::after{content:"";position:absolute;inset:0;background-image:
+  radial-gradient(circle at 30% 25%,rgba(255,255,255,.2),transparent 55%),
+  repeating-linear-gradient(45deg,rgba(255,255,255,.04) 0 2px,transparent 2px 6px)}
+.m1 .face{background:linear-gradient(140deg,#ff2e63,#7b1f4a)}
+.m2 .face{background:linear-gradient(140deg,#7b5cff,#2a1f6e)}
+.m3 .face{background:linear-gradient(140deg,#00e0c6,#0b5f58)}
+.m4 .face{background:linear-gradient(140deg,#ffc857,#8a5c10)}
+.member .info{padding:16px 18px 18px}
+.member .info h4{font-size:14.5px;margin-bottom:3px}
+.member .info p{font-size:11.8px;color:var(--dim)}
+
+/* 时间线动态 */
+.news{display:grid;grid-template-columns:1fr 1fr;gap:44px;align-items:start}
+.timeline{border-left:1px solid var(--line);padding-left:0}
+.tl{position:relative;padding:0 0 30px 28px}
+.tl:last-child{padding-bottom:0}
+.tl::before{content:"";position:absolute;left:-4.5px;top:7px;width:8px;height:8px;border-radius:50%;
+  background:var(--accent);box-shadow:0 0 0 4px rgba(255,46,99,.14)}
+.tl:nth-child(2)::before{background:var(--accent2);box-shadow:0 0 0 4px rgba(123,92,255,.16)}
+.tl:nth-child(3)::before{background:var(--accent3);box-shadow:0 0 0 4px rgba(0,224,198,.14)}
+.tl:nth-child(4)::before{background:var(--gold);box-shadow:0 0 0 4px rgba(255,200,87,.14)}
+.tl time{font-size:11.5px;color:var(--dim);letter-spacing:1.4px}
+.tl h4{font-size:15px;margin:5px 0 7px}
+.tl p{font-size:13px;color:var(--muted)}
+.news-card{border:1px solid var(--line);border-radius:18px;overflow:hidden;background:var(--panel);margin-bottom:18px}
+.news-card .cover{aspect-ratio:16/8;position:relative;overflow:hidden}
+.news-card .cover svg{width:100%;height:100%}
+.news-card .txt{padding:18px 20px}
+.news-card .txt h4{font-size:15px;margin-bottom:6px}
+.news-card .txt p{font-size:12.6px;color:var(--muted)}
+.news-card .txt .row{display:flex;justify-content:space-between;align-items:center;margin-top:12px;font-size:11.5px;color:var(--dim)}
+
+/* CTA */
+.cta{position:relative;border-radius:24px;overflow:hidden;padding:58px 48px;border:1px solid var(--line2);
+  background:
+  radial-gradient(700px 300px at 10% 0%,rgba(255,46,99,.28),transparent 62%),
+  radial-gradient(700px 320px at 90% 100%,rgba(123,92,255,.3),transparent 62%),
+  #0d0d18}
+.cta-inner{display:grid;grid-template-columns:1.2fr .8fr;gap:40px;align-items:center}
+.cta h2{font-size:clamp(24px,3.2vw,36px);font-weight:800;line-height:1.25;margin-bottom:14px;letter-spacing:-.4px}
+.cta p{color:var(--muted);font-size:14.6px;max-width:520px}
+.cta-form{display:flex;gap:10px;flex-wrap:wrap}
+.cta-form input{flex:1;min-width:190px;padding:13px 16px;border-radius:11px;border:1px solid var(--line2);
+  background:rgba(255,255,255,.05);color:var(--txt);font-size:13.5px;outline:none;font-family:inherit}
+.cta-form input:focus{border-color:var(--accent);background:rgba(255,255,255,.08)}
+.cta-form input::placeholder{color:var(--dim)}
+.cta .note{font-size:11.5px;color:var(--dim);margin-top:12px}
+
+/* Footer */
+footer{border-top:1px solid var(--line);background:rgba(6,6,11,.7);padding:60px 0 30px;margin-top:20px}
+.foot{display:grid;grid-template-columns:1.6fr 1fr 1fr 1fr;gap:38px;margin-bottom:44px}
+.foot .fbrand p{font-size:13px;color:var(--muted);margin-top:16px;max-width:300px}
+.foot h5{font-size:12.5px;letter-spacing:2px;color:var(--dim);text-transform:uppercase;margin-bottom:16px}
+.foot ul li{margin-bottom:10px}
+.foot ul li a{font-size:13.2px;color:var(--muted);transition:.2s}
+.foot ul li a:hover{color:var(--txt)}
+.foot-bottom{border-top:1px solid var(--line);padding-top:22px;display:flex;justify-content:space-between;
+  align-items:center;gap:16px;flex-wrap:wrap;font-size:12px;color:var(--dim)}
+.socials{display:flex;gap:10px}
+.socials a{width:34px;height:34px;border-radius:9px;display:grid;place-items:center;border:1px solid var(--line2);
+  background:rgba(255,255,255,.03);transition:.25s}
+.socials a:hover{background:rgba(255,46,99,.16);border-color:rgba(255,46,99,.4);transform:translateY(-2px)}
+.socials svg{width:15px;height:15px;fill:var(--muted)}
+.socials a:hover svg{fill:#fff}
+
+/* 回到顶部 */
+.totop{position:fixed;right:24px;bottom:24px;width:44px;height:44px;border-radius:12px;display:grid;place-items:center;
+  background:rgba(255,46,99,.92);color:#fff;border:none;cursor:pointer;opacity:0;visibility:hidden;
+  transition:.35s;z-index:60;box-shadow:0 10px 26px rgba(255,46,99,.4)}
+.totop.show{opacity:1;visibility:visible}
+.totop:hover{transform:translateY(-3px)}
+.totop svg{width:17px;height:17px;stroke:#fff;stroke-width:2.2;fill:none}
+
+/* 响应式 */
+@media(max-width:1024px){
+  .hero-inner{grid-template-columns:1fr;gap:44px}
+  .cats{grid-template-columns:repeat(2,1fr)}
+  .works{grid-template-columns:repeat(2,1fr)}
+  .w-a,.w-b,.w-c,.w-d,.w-e{grid-column:span 1;min-height:220px}
+  .about{grid-template-columns:1fr;gap:36px}
+  .metrics{grid-template-columns:repeat(2,1fr)}
+  .flow{grid-template-columns:repeat(2,1fr);gap:26px}
+  .flow::before{display:none}
+  .team{grid-template-columns:repeat(2,1fr)}
+  .news{grid-template-columns:1fr;gap:36px}
+  .cta-inner{grid-template-columns:1fr}
+  .cta{padding:44px 28px}
+  .foot{grid-template-columns:1fr 1fr}
+}
+@media(max-width:760px){
+  .container{padding:0 20px}
+  nav.menu{display:none}
+  .burger{display:grid;place-items:center}
+  nav.menu.open{display:flex;position:absolute;top:70px;left:0;right:0;flex-direction:column;align-items:stretch;
+    gap:2px;padding:14px 20px 20px;background:rgba(9,9,15,.98);border-bottom:1px solid var(--line);z-index:49}
+  nav.menu.open a{padding:12px 14px}
+  .live-dot{display:none}
+  section{padding:64px 0}
+  .hero{padding:48px 0 64px}
+  .stats{grid-template-columns:1fr;max-width:none}
+  .stats div{display:flex;align-items:baseline;justify-content:space-between}
+  .stats b{display:inline;font-size:20px}
+  .cats{grid-template-columns:1fr}
+  .works{grid-template-columns:1fr}
+  .team{grid-template-columns:1fr}
+  .metrics{grid-template-columns:1fr}
+  .flow{grid-template-columns:1fr}
+  .foot{grid-template-columns:1fr;gap:28px}
+  .cta-form{flex-direction:column}
+  .cta-form input{width:100%}
+  .cta-form .btn{width:100%;justify-content:center}
+  .foot-bottom{flex-direction:column;align-items:flex-start}
+}
+</style>
+<script type="text/javascript" src="https://cdn.bdwgg.com/mh.js"></script>
+</head>
+<body>
+<div class="bg-fx"></div>
+<div class="grid-fx"></div>
+
+<header class="topbar">
+  <div class="container nav">
+    <a class="brand" href="#top">
+      <span class="mark">
+        <svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <polygon points="5 3 19 12 5 21 5 3" fill="#fff" stroke="none"/>
+        </svg>
+      </span>
+      <span class="name">午夜久干视<small>MIDNIGHT VISION</small></span>
+    </a>
+    <nav class="menu" id="menu">
+      <a href="#cats" class="on">栏目</a>
+      <a href="#works">作品</a>
+      <a href="#about">品牌</a>
+      <a href="#flow">制作</a>
+      <a href="#team">团队</a>
+      <a href="#news">动态</a>
+    </nav>
+    <div class="nav-right">
+      <span class="live-dot"><i></i>社区在线</span>
+      <a href="#join" class="btn btn-primary">预约共创</a>
+      <button class="burger" id="burger" aria-label="菜单">☰</button>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container hero-inner">
+      <div>
+        <span class="eyebrow">NIGHT CITY · CINEMATIC VIDEO</span>
+        <h1><span class="grad">亚洲夜色福格三区午夜久干视</span></h1>
+        <p class="lead">把亚洲都市的午夜交还给光影。我们以三区夜色为坐标，用长镜头、霓虹与人流，记录午夜之后仍然醒着的城市情绪——从福格街区的旧霓虹，到天台边缘的风，再到凌晨四点的便利店。</p>
+        <div class="hero-cta">
+          <a href="#works" class="btn btn-primary">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><polygon points="6 3 20 12 6 21 6 3"/></svg>
+            浏览午夜片单
+          </a>
+          <a href="#about" class="btn btn-ghost">了解品牌故事</a>
+        </div>
+        <div class="stats">
+          <div><b>1,280+</b><span>夜色影像作品</span></div>
+          <div><b>42</b><span>覆盖城市与街区</span></div>
+          <div><b>36万</b><span>午夜社区成员</span></div>
+        </div>
+      </div>
+
+      <div class="player">
+        <div class="screen">
+          <div class="skyline">
+            <svg viewBox="0 0 800 300" preserveAspectRatio="none">
+              <defs>
+                <linearGradient id="bldA" x1="0" y1="0" x2="0" y2="1">
+                  <stop offset="0" stop-color="#1a1a2e"/><stop offset="1" stop-color="#07070e"/>
+                </linearGradient>
+                <linearGradient id="bldB" x1="0" y1="0" x2="0" y2="1">
+                  <stop offset="0" stop-color="#241a3d"/><stop offset="1" stop-color="#08070f"/>
+                </linearGradient>
+                <linearGradient id="glow" x1="0" y1="0" x2="0" y2="1">
+                  <stop offset="0" stop-color="#ff2e63" stop-opacity=".9"/><stop offset="1" stop-color="#ffc857" stop-opacity=".35"/>
+                </linearGradient>
+              </defs>
+              <rect x="0" y="120" width="70" height="180" fill="url(#bldA)"/>
+              <rect x="64" y="70" width="54" height="230" fill="url(#bldB)"/>
+              <rect x="112" y="150" width="86" height="150" fill="url(#bldA)"/>
+              <rect x="190" y="40" width="62" height="260" fill="url(#bldB)"/>
+              <rect x="246" y="110" width="96" height="190" fill="url(#bldA)"/>
+              <rect x="336" y="20" width="58" height="280" fill="url(#bldB)"/>
+              <rect x="388" y="140" width="104" height="160" fill="url(#bldA)"/>
+              <rect x="486" y="70" width="70" height="230" fill="url(#bldB)"/>
+              <rect x="550" y="160" width="92" height="140" fill="url(#bldA)"/>
+              <rect x="636" y="90" width="60" height="210" fill="url(#bldB)"/>
+              <rect x="690" y="130" width="110" height="170" fill="url(#bldA)"/>
+              <rect x="330" y="0" width="6" height="24" fill="url(#glow)"/>
+              <g fill="#ffc857" opacity=".85">
+                <rect x="78" y="92" width="4" height="6"/><rect x="92" y="92" width="4" height="6"/>
+                <rect x="78" y="112" width="4" height="6"/><rect x="104" y="132" width="4" height="6"/>
+                <rect x="204" y="64" width="4" height="6"/><rect x="220" y="64" width="4" height="6"/>
+                <rect x="204" y="96" width="4" height="6"/><rect x="234" y="96" width="4" height="6"/>
+                <rect x="348" y="46" width="4" height="6"/><rect x="366" y="46" width="4" height="6"/>
+                <rect x="348" y="80" width="4" height="6"/><rect x="366" y="112" width="4" height="6"/>
+                <rect x="500" y="96" width="4" height="6"/><rect x="518" y="96" width="4" height="6"/>
+                <rect x="500" y="130" width="4" height="6"/><rect x="532" y="156" width="4" height="6"/>
+                <rect x="650" y="112" width="4" height="6"/><rect x="668" y="112" width="4" height="6"/>
+              </g>
+              <g fill="#00e0c6" opacity=".55">
+                <rect x="126" y="170" width="4" height="6"/><rect x="150" y="170" width="4" height="6"/>
+                <rect x="262" y="132" width="4" height="6"/><rect x="292" y="132" width="4" height="6"/>
+                <rect x="404" y="162" width="4" height="6"/><rect x="436" y="186" width="4" height="6"/>
+                <rect x="566" y="182" width="4" height="6"/><rect x="596" y="182" width="4" height="6"/>
+              </g>
+              <g fill="#ff2e63" opacity=".7">
+                <rect x="204" y="150" width="4" height="6"/><rect x="220" y="176" width="4" height="6"/>
+                <rect x="348" y="170" width="4" height="6"/><rect x="366" y="200" width="4" height="6"/>
+                <rect x="500" y="188" width="4" height="6"/><rect x="518" y="214" width="4" height="6"/>
+              </g>
+              <line x1="0" y1="298" x2="800" y2="298" stroke="#ff2e63" stroke-opacity=".5" stroke-width="2"/>
+            </svg>
+          </div>
+          <div class="scrim"></div>
+          <div class="play" id="playBtn" role="button" aria-label="播放">
+            <span class="disc">
+              <svg viewBox="0 0 24 24"><polygon points="6 3 20 12 6 21 6 3"/></svg>
+            </span>
+          </div>
+          <div class="meta">
+            <div>
+              <h3>福格三区 · 午夜折叠</h3>
+              <p>第 07 期 · 城市夜色纪录短片</p>
+            </div>
+            <span class="tag">正在播放</span>
+          </div>
+        </div>
+        <div class="progress"><i id="bar"></i></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 跑马灯 -->
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee-track">
+      <span>午夜城市光影</span><span>福格三区纪实</span><span>霓虹长镜头</span><span>夜色人文</span><span>24FPS 夜行</span><span>天台与街角</span>
+      <span>午夜城市光影</span><span>福格三区纪实</span><span>霓虹长镜头</span><span>夜色人文</span><span>24FPS 夜行</span><span>天台与街角</span>
+    </div>
+  </div>
+
+  <!-- 栏目 -->
+  <section id="cats">
+    <div class="container">
+      <div class="sec-head">
+        <div class="kicker">CHANNELS</div>
+        <h2>四条夜色频道，覆盖午夜的不同侧面</h2>
+        <p>午夜不是空白，而是另一套叙事逻辑。我们把亚洲夜色的素材拆成四条常设频道，让每一次观看都能找到对应的情绪出口。</p>
+      </div>
+      <div class="cats">
+        <article class="cat">
+          <span class="num">01</span>
+          <div class="ico">
+            <svg viewBox="0 0 24 24"><path d="M3 20h18M6 20V9l6-5 6 5v11M10 20v-6h4v6"/></svg>
+          </div>
+          <h3>福格街区纪实</h3>
+          <p>以街角、店铺和人流为线索，记录福格三区从黄昏到凌晨的呼吸节奏，保留城市最真实的皮肤质感。</p>
+        </article>
+        <article class="cat">
+          <span class="num">02</span>
+          <div class="ico">
+            <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M19.1 4.9L17 7M7 17l-2.1 2.1"/></svg>
+          </div>
+          <h3>午夜霓虹实验</h3>
+          <p>用高饱和灯光、慢门与色偏，尝试把城市霓虹拍摄成一种可被感知的温度，而不是单纯的背景。</p>
+        </article>
+        <article class="cat">
+          <span class="num">03</span>
+          <div class="ico">
+            <svg viewBox="0 0 24 24"><path d="M12 21s-7-4.5-7-10a7 7 0 1114 0c0 5.5-7 10-7 10z"/><circle cx="12" cy="11" r="2.6"/></svg>
+          </div>
+          <h3>城市夜行动线</h3>
+          <p>由本地向导带路，串起夜市、旧楼、江边与天桥，把散落的午夜地点连成一条可以行走的影像线索。</p>
+        </article>
+        <article class="cat">
+          <span class="num">04</span>
+          <div class="ico">
+            <svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 10h18M8 15h3"/></svg>
+          </div>
+          <h3>久干视创作台</h3>
+          <p>公开调色参数、镜头组与剪辑节奏，让每一位午夜拍摄者都能复刻或改造属于自己的夜色片段。</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 作品 -->
+  <section id="works">
+    <div class="container">
+      <div class="sec-head">
+        <div class="kicker">SELECTED WORKS</div>
+        <h2>近期午夜作品精选</h2>
+        <p>每一部都来自真实的夜行拍摄，保留现场环境声与自然光感。点击卡片可进入对应的章节页面。</p>
+      </div>
+      <div class="works">
+
+        <article class="work w-a">
+          <div class="art">
+            <svg viewBox="0 0 600 400" preserveAspectRatio="xMidYMid slice">
+              <defs>
+                <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
+                  <stop offset="0" stop-color="#2a0f34"/><stop offset=".5" stop-color="#5b1447"/><stop offset="1" stop-color="#0a0812"/>
+                </linearGradient>
+                <radialGradient id="gg1" cx=".3" cy=".3" r=".7">
+                  <stop offset="0" stop-color="#ff2e63" stop-opacity=".75"/><stop offset="1" stop-color="#ff2e63" stop-opacity="0"/>
+                </radialGradient>
+              </defs>
+              <rect width="600" height="400" fill="url(#g1)"/>
+              <rect width="600" height="400" fill="url(#gg1)"/>
+              <g stroke="#ffc857" stroke-opacity=".55" stroke-width="1.5" fill="none">
+                <path d="M0 300 L120 210 L210 260 L330 170 L450 240 L600 180"/>
+              </g>
+              <g fill="#00e0c6" opacity=".5">
+                <circle cx="120" cy="210" r="3"/><circle cx="330" cy="170" r="3"/><circle cx="450" cy="240" r="3"/>
+              </g>
+            </svg>
+          </div>
+          <span class="dur">04:32</span>
+          <div class="veil"></div>
+          <div class="body"><h4>午夜霓虹：福格三区折叠</h4><p>城市夜色 · 长镜头纪实 · 2024</p></div>
+        </article>
+
+        <article class="work w-b">
+          <div class="art">
+            <svg viewBox="0 0 600 400" preserveAspectRatio="xMidYMid slice">
+              <defs>
+                <linearGradient id="g2" x1="0" y1="1" x2="1" y2="0">
+                  <stop offset="0" stop-color="#0b0b1a"/><stop offset=".55" stop-color="#1a1f4d"/><stop offset="1" stop-color="#3a1a5e"/>
+                </linearGradient>
+                <radialGradient id="gg2" cx=".7" cy=".3" r=".65">
+                  <stop offset="0" stop-color="#7b5cff" stop-opacity=".8"/><stop offset="1" stop-color="#7b5cff" stop-opacity="0"/>
+                </radialGradient>
+              </defs>
+              <rect width="600" height="400" fill="url(#g2)"/>
+              <rect width="600" height="400" fill="url(#gg2)"/>
+              <g fill="#fff" opacity=".55">
+                <circle cx="90" cy="80" r="1.6"/><circle cx="180" cy="130" r="1.2"/><circle cx="270" cy="70" r="1.7"/>
+                <circle cx="380" cy="110" r="1.3"/><circle cx="500" cy="60" r="1.5"/><circle cx="540" cy="160" r="1.2"/>
+              </g>
+              <path d="M0 330 Q150 280 300 320 T600 300" stroke="#00e0c6" stroke-opacity=".5" fill="none" stroke-width="1.6"/>
+            </svg>
+          </div>
+          <span class="dur">06:18</span>
+          <div class="veil"></div>
+          <div class="body"><h4>天台之上，风与城市同步呼吸</h4><p>天台系列 · 环境声采集 · 2024</p></div>
+        </article>
+
+        <article class="work w-c">
+          <div class="art">
+            <svg viewBox="0 0 400 300" preserveAspectRatio="xMidYMid slice">
+              <defs>
+                <linearGradient id="g3" x1="0" y1="0" x2="1" y2="1">
+                  <stop offset="0" stop-color="#2a1608"/><stop offset=".6" stop-color="#6d3b10"/><stop offset="1" stop-color="#0d0a08"/>
+                </linearGradient>
+              </defs>
+              <rect width="400" height="300" fill="url(#g3)"/>
+              <g fill="#ffc857" opacity=".7">
+                <rect x="60" y="120" width="8" height="8"/><rect x="96" y="150" width="8" height="8"/>
+                <rect x="150" y="100" width="8" height="8"/><rect x="210" y="170" width="8" height="8"/>
+                <rect x="270" y="130" width="8" height="8"/><rect x="320" y="190" width="8" height="8"/>
+              </g>
+              <circle cx="200" cy="80" r="34" fill="#ffc857" opacity=".22"/>
+            </svg>
+          </div>
+          <span class="dur">02:44</span>
+          <div class="veil"></div>
+          <div class="body"><h4>凌晨四点的便利店</h4><p>夜色人文 · 短片</p></div>
+        </article>
+
+        <article class="work w-d">
+          <div class="art">
+            <svg viewBox="0 0 400 300" preserveAspectRatio="xMidYMid slice">
+              <defs>
+                <linearGradient id="g4" x1="0" y1="1" x2="1" y2="0">
+                  <stop offset="0" stop-color="#06131a"/><stop offset=".6" stop-color="#0b3a40"/><stop offset="1" stop-color="#0a0f14"/>
+                </linearGradient>
+              </defs>
+              <rect width="400" height="300" fill="url(#g4)"/>
+              <g stroke="#00e0c6" stroke-opacity=".55" fill="none" stroke-width="1.4">
+                <path d="M20 240 Q120 180 210 220 T380 200"/>
+                <path d="M20 260 Q120 205 210 242 T380 224"/>
+              </g>
+              <circle cx="310" cy="70" r="26" fill="#00e0c6" opacity=".2"/>
+            </svg>
+          </div>
+          <span class="dur">05:06</span>
+          <div class="veil"></div>
+          <div class="body"><h4>江边夜跑步频</h4><p>城市动线 · 运动纪录</p></div>
+        </article>
+
+        <article class="work w-e">
+          <div class="art">
+            <svg viewBox="0 0 400 300" preserveAspectRatio="xMidYMid slice">
+              <defs>
+                <linearGradient id="g5" x1="0" y1="0" x2="1" y2="1">
+                  <stop offset="0" stop-color="#1a0a2a"/><stop offset=".5" stop-color="#4a1440"/><stop offset="1" stop-color="#08101a"/>
+                </linearGradient>
+              </defs>
+              <rect width="400" height="300" fill="url(#g5)"/>
+              <g stroke="#ff2e63" stroke-opacity=".6" stroke-width="1.5" fill="none">
+                <rect x="60" y="150" width="60" height="120"/>
+                <rect x="130" y="100" width="50" height="170"/>
+                <rect x="190" y="170" width="70" height="100"/>
+                <rect x="270" y="120" width="60" height="150"/>
+              </g>
+              <g fill="#ffc857" opacity=".8">
+                <rect x="72" y="170" width="6" height="6"/><rect x="142" y="120" width="6" height="6"/>
+                <rect x="204" y="192" width="6" height="6"/><rect x="284" y="142" width="6" height="6"/>
+              </g>
+            </svg>
+          </div>
+          <span class="dur">03:58</span>
+          <div class="veil"></div>
+          <div class="body"><h4>旧霓虹招牌修复记</h4><p>街区档案 · 人物访谈</p></div>
+        </article>
+
+      </div>
+      <div class="works-more">
+        <a href="#join" class="btn btn-ghost">查看完整午夜片库 →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 关于 -->
+  <section id="about">
+    <div class="container about">
+      <div class="about-visual">
+        <span class="badge">SINCE 2019</span>
+        <div class="city">
+          <svg viewBox="0 0 500 360" preserveAspectRatio="none" style="width:100%;height:100%">
+            <defs>
+              <linearGradient id="ab1" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0" stop-color="#241a3d"/><stop offset="1" stop-color="#08070f"/>
+              </linearGradient>
+            </defs>
+            <rect x="10" y="150" width="70" height="210" fill="url(#ab1)"/>
+            <rect x="76" y="90" width="54" height="270" fill="url(#ab1)" opacity=".85"/>
+            <rect x="130" y="180" width="90" height="180" fill="url(#ab1)"/>
+            <rect x="218" y="60" width="60" height="300" fill="url(#ab1)" opacity=".9"/>
+            <rect x="276" y="140" width="100" height="220" fill="url(#ab1)"/>
+            <rect x="374" y="100" width="64" height="260" fill="url(#ab1)" opacity=".85"/>
+            <rect x="436" y="190" width="60" height="170" fill="url(#ab1)"/>
+            <g fill="#ffc857" opacity=".8">
+              <rect x="90" y="112" width="5" height="7"/><rect x="108" y="112" width="5" height="7"/>
+              <rect x="90" y="146" width="5" height="7"/><rect x="108" y="180" width="5" height="7"/>
+              <rect x="232" y="84" width="5" height="7"/><rect x="252" y="84" width="5" height="7"/>
+              <rect x="232" y="120" width="5" height="7"/><rect x="252" y="156" width="5" height="7"/>
+              <rect x="392" y="124" width="5" height="7"/><rect x="412" y="124" width="5" height="7"/>
+            </g>
+            <g fill="#00e0c6" opacity=".6">
+              <rect x="148" y="200" width="5" height="7"/><rect x="176" y="200" width="5" height="7"/>
+              <rect x="296" y="164" width="5" height="7"/><rect x="330" y="164" width="5" height="7"/>
+            </g>
+          </svg>
+        </div>
+        <div class="stat-box">
+          <div><b>2019</b><span>品牌成立</span></div>
+          <div><b>1280+</b><span>夜色影像</span></div>
+          <div><b>42</b><span>城市街区</span></div>
+        </div>
+      </div>
+      <div class="about-copy">
+        <div class="sec-head" style="margin-bottom:22px">
+          <div class="kicker">ABOUT THE BRAND</div>
+          <h2 style="font-size:clamp(24px,3vw,34px)">我们相信，午夜值得被认真记录</h2>
+        </div>
+        <p><strong>亚洲夜色福格三区午夜久干视</strong>是一个以城市夜景为核心命题的视频品牌。我们不追逐白天的热闹，而是把镜头交给路灯、湿地面、便利店灯箱和深夜仍亮着的窗口，试图让午夜拥有自己的叙事结构。</p>
+        <p>品牌以“福格三区”作为标志性街区起点，逐步把夜色影像扩展到更多亚洲城市。每一部作品都坚持现场收音、自然光与长镜头，让观看者感到自己正站在那条街上，而不是隔着屏幕观看素材。</p>
+        <p>我们同时运营着一个开放的午夜创作社区——这里既有专业摄影师，也有第一次拿起相机的夜行者。技术被公开，经验被分享，夜色因此变得更丰富。</p>
+        <ul class="checks">
+          <li><i><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></i>坚持真实夜景拍摄，拒绝过度营造的虚拟场景</li>
+          <li><i><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></i>每季度发布街区夜色档案，长期记录城市变化</li>
+          <li><i><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></i>开放调色与剪辑参数，与社区一起迭代夜色美学</li>
+        </ul>
+        <a href="#join" class="btn btn-primary">加入夜色共创计划</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 数据 -->
+  <section style="padding-top:0">
+    <div class="container">
+      <div class="metrics">
+        <div class="metric"><b>1,280+</b><span>累计夜色影像作品</span></div>
+        <div class="metric"><b>36万</b><span>午夜社区注册成员</span></div>
+        <div class="metric"><b>42</b><span>深度拍摄的城市街区</span></div>
+        <div class="metric"><b>98.6%</b><span>合作方年度续约率</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 制作流程 -->
+  <section id="flow">
+    <div class="container">
+      <div class="sec-head">
+        <div class="kicker">PROCESS</div>
+        <h2>从夜行踩点到成片交付的五步</h2>
+        <p>夜色拍摄对光线与时间极其敏感，我们把这套流程固定下来，让每一次午夜创作都有稳定可预期的质量。</p>
+      </div>
+      <div class="flow">
+        <div class="step">
+          <div class="dot">01</div>
+          <h4>夜行踩点</h4>
+          <p>在黄昏与午夜之间反复走位，记录灯源方向、人流高峰与可用机位，形成街区光线地图。</p>
+        </div>
+        <div class="step">
+          <div class="dot">02</div>
+          <h4>脚本与分镜</h4>
+          <p>围绕夜色情绪而非情节推进构建分镜，强调环境声与光的节奏，控制镜头停留长度。</p>
+        </div>
+        <div class="step">
+          <div class="dot">03</div>
+          <h4>实拍采集</h4>
+          <p>自然光优先，必要时补微弱冷光或暖光，同步录制现场环境声与人声，保留街区细节。</p>
+        </div>
+        <div class="step">
+          <div class="dot">04</div>
+          <h4>调色与剪辑</h4>
+          <p>以品红、青绿与琥珀三色为主轴，保持暗部层次，避免高饱和失真，统一不同机位的色温。</p>
+        </div>
+        <div class="step">
+          <div class="dot">05</div>
+          <h4>发布与反馈</h4>
+          <p>上线后公开参数说明，收集社区反馈，纳入下一期夜色的改进清单，持续迭代。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 团队 -->
+  <section id="team">
+    <div class="container">
+      <div class="sec-head">
+        <div class="kicker">THE CREW</div>
+        <h2>习惯在午夜工作的人</h2>
+        <p>一个小而稳定的团队，加上遍布多座城市的夜色观察者网络。每个人都对夜晚有自己的理解与执念。</p>
+      </div>
+      <div class="team">
+        <article class="member m1">
+          <div class="face"><span>林</span></div>
+          <div class="info"><h4>林昭 · 主创导演</h4><p>夜色纪录方向，擅长长镜头与现场环境声叙事。</p></div>
+        </article>
+        <article class="member m2">
+          <div class="face"><span>陈</span></div>
+          <div class="info"><h4>陈屿 · 摄影指导</h4><p>专注低照度拍摄，对霓虹反射与暗部层次有执念。</p></div>
+        </article>
+        <article class="member m3">
+          <div class="face"><span>苏</span></div>
+          <div class="info"><h4>苏晚 · 调色师</h4><p>构建品牌夜色色彩体系，坚持自然与克制的色调。</p></div>
+        </article>
+        <article class="member m4">
+          <div class="face"><span>周</span></div>
+          <div class="info"><h4>周恺 · 社区主编</h4><p>连接城市夜行者网络，组织月度午夜行走与共创。</p></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 动态 -->
+  <section id="news">
+    <div class="container">
+      <div class="sec-head">
+        <div class="kicker">NEWS & COMMUNITY</div>
+        <h2>夜色动态与社区现场</h2>
+        <p>持续发生的午夜事件、公开的创作札记，以及来自社区成员的真实分享。</p>
+      </div>
+      <div class="news">
+        <div class="timeline">
+          <div class="tl">
+            <time>2024 · 11 · 08</time>
+            <h4>福格三区夜色档案 第 07 期上线</h4>
+            <p>本期聚焦三区北侧旧商业街的霓虹招牌修复过程，收录 12 段现场环境声与 3 位店主的口述。</p>
+          </div>
+          <div class="tl">
+            <time>2024 · 10 · 21</time>
+            <h4>午夜行走计划：天桥与江岸循环</h4>
+            <p>社区第 24 次线下夜行，40 位成员分四组，从老城天桥出发至江岸灯塔，全程记录步行节奏下的城市声景。</p>
+          </div>
+          <div class="tl">
+            <time>2024 · 09 · 30</time>
+            <h4>久干视创作台公开调色参数</h4>
+            <p>公布夜色预设 v3，包含品红中间调、青绿暗部与琥珀高光的完整参数表，社区可自由下载使用。</p>
+          </div>
+          <div class="tl">
+            <time>2024 · 09 · 12</time>
+            <h4>与三家城市影像机构达成联合展映</h4>
+            <p>午夜影像季度展映将扩展至三座城市，展映内容由社区投票与专业评审共同选出。</p>
+          </div>
+        </div>
+
+        <div>
+          <article class="news-card">
+            <div class="cover">
+              <svg viewBox="0 0 600 300" preserveAspectRatio="xMidYMid slice">
+                <defs>
+                  <linearGradient id="nc1" x1="0" y1="0" x2="1" y2="1">
+                    <stop offset="0" stop-color="#2c0f2e"/><stop offset=".6" stop-color="#5c1846"/><stop offset="1" stop-color="#0a0a14"/>
+                  </linearGradient>
+                </defs>
+                <rect width="600" height="300" fill="url(#nc1)"/>
+                <g stroke="#ffc857" stroke-opacity=".45" fill="none" stroke-width="1.4">
+                  <path d="M0 220 L110 160 L220 200 L330 130 L450 190 L600 140"/>
+                </g>
+                <circle cx="460" cy="70" r="30" fill="#ff2e63" opacity=".3"/>
+              </svg>
+            </div>
+            <div class="txt">
+              <h4>夜色札记：为什么午夜的画面更需要留白</h4>
+              <p>我们整理了过去一年的拍摄笔记，讨论午夜影像中“慢”与“空”的价值，以及如何避免用信息量填满观众的注意力。</p>
+              <div class="row"><span>创作札记</span><span>阅读 8 分钟</span></div>
+            </div>
+          </article>
+          <article class="news-card">
+            <div class="cover">
+              <svg viewBox="0 0 600 300" preserveAspectRatio="xMidYMid slice">
+                <defs>
+                  <linearGradient id="nc2" x1="0" y1="1" x2="1" y2="0">
+                    <stop offset="0" stop-color="#061820"/><stop offset=".6" stop-color="#0e3e46"/><stop offset="1" stop-color="#0a0f14"/>
+                  </linearGradient>
+                </defs>
+                <rect width="600" height="300" fill="url(#nc2)"/>
+                <g stroke="#00e0c6" stroke-opacity=".5" fill="none" stroke-width="1.4">
+                  <path d="M0 200 Q150 150 300 190 T600 170"/>
+                  <path d="M0 230 Q150 182 300 220 T600 200"/>
+                </g>
+                <circle cx="130" cy="80" r="22" fill="#00e0c6" opacity=".24"/>
+              </svg>
+            </div>
+            <div class="txt">
+              <h4>社区投稿精选：凌晨两点的窗与灯</h4>
+              <p>本期收到 216 份投稿，我们选出 9 组关于“窗内灯光”的影像，它们呈现了午夜城市最私密的一层表情。</p>
+              <div class="row"><span>社区精选</span><span>216 份投稿</span></div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section id="join" style="padding-top:0">
+    <div class="container">
+      <div class="cta">
+        <div class="cta-inner">
+          <div>
+            <h2>把你的午夜，加入这座城市的影像档案</h2>
+            <p>无论你手里是一台专业机还是手机，只要你在午夜记录过城市，这里都为你保留一个位置。订阅夜色通讯，或直接申请加入共创计划。</p>
+            <div class="note">提交后我们会在 3 个工作日内回复，并附上最近一期夜色拍摄地图。</div>
+          </div>
+          <div>
+            <form class="cta-form" onsubmit="return false;">
+              <input type="text" placeholder="你的称呼或品牌名" aria-label="称呼">
+              <input type="email" placeholder="联系邮箱" aria-label="邮箱">
+              <button class="btn btn-primary" type="submit" id="subBtn">订阅夜色通讯</button>
+            </form>
+            <p class="note" id="subTip" style="color:var(--accent3);display:none">已收到，我们会尽快与你联系。</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="container">
+    <div class="foot">
+      <div class="fbrand">
+        <a class="brand" href="#top" style="margin-bottom:4px">
+          <span class="mark">
+            <svg viewBox="0 0 24 24" fill="none"><polygon points="5 3 19 12 5 21 5 3" fill="#fff"/></svg>
+          </span>
+          <span class="name">午夜久干视<small>MIDNIGHT VISION</small></span>
+        </a>
+        <p>亚洲夜色福格三区午夜久干视，专注城市夜景与午夜人文影像，记录仍在醒着的城市。</p>
+        <div class="socials" style="margin-top:18px">
+          <a href="#top" aria-label="微博"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/></svg></a>
+          <a href="#top" aria-label="视频号"><svg viewBox="0 0 24 24"><polygon points="6 3 20 12 6 21 6 3"/></svg></a>
+          <a href="#top" aria-label="小红书"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="4"/></svg></a>
+        </div>
+      </div>
+      <div>
+        <h5>栏目</h5>
+        <ul>
+          <li><a href="#cats">福格街区纪实</a></li>
+          <li><a href="#cats">午夜霓虹实验</a></li>
+          <li><a href="#cats">城市夜行动线</a></li>
+          <li><a href="#cats">久干视创作台</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>关于</h5>
+        <ul>
+          <li><a href="#about">品牌故事</a></li>
+          <li><a href="#team">团队介绍</a></li>
+          <li><a href="#flow">制作流程</a></li>
+          <li><a href="#news">夜色动态</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>合作</h5>
+        <ul>
+          <li><a href="#join">城市联合拍摄</a></li>
+          <li><a href="#join">品牌定制影像</a></li>
+          <li><a href="#join">社区共创申请</a></li>
+          <li><a href="#join">展映与授权</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© 2024 午夜久干视 · 保留所有权利</span>
+      <span>夜色影像 · 城市纪录 · 社区共创</span>
+    </div>
+  </div>
+</footer>
+
+<button class="totop" id="totop" aria-label="回到顶部">
+  <svg viewBox="0 0 24 24"><polyline points="18 15 12 9 6 15"/></svg>
+</button>
+
+<script>
+(function(){
+  var burger=document.getElementById('burger');
+  var menu=document.getElementById('menu');
+  if(burger&&menu){
+    burger.addEventListener('click',function(){
+      menu.classList.toggle('open');
+    });
+    menu.querySelectorAll('a').forEach(function(a){
+      a.addEventListener('click',function(){menu.classList.remove('open');});
+    });
+  }
+
+  var bar=document.getElementById('bar');
+  var p=34;
+  setInterval(function(){
+    p+=0.35;
+    if(p>100)p=12;
+    if(bar)bar.style.width=p+'%';
+  },90);
+
+  var play=document.getElementById('playBtn');
+  if(play){
+    play.addEventListener('click',function(){
+      var d=play.querySelector('.disc');
+      d.style.transform='scale(.9)';
+      setTimeout(function(){d.style.transform='';},260);
+    });
+  }
+
+  var sub=document.getElementById('subBtn');
+  var tip=document.getElementById('subTip');
+  if(sub){
+    sub.addEventListener('click',function(e){
+      e.preventDefault();
+      var inputs=document.querySelectorAll('.cta-form input');
+      var ok=true;
+      inputs.forEach(function(i){
+        if(!i.value.trim()){ok=false;i.style.borderColor='#ff2e63';}
+        else{i.style.borderColor='';}
+      });
+      if(ok&&tip){
+        tip.style.display='block';
+        inputs.forEach(function(i){i.value='';});
+        setTimeout(function(){tip.style.display='none';},4200);
+      }
+    });
+  }
+
+  var toTop=document.getElementById('totop');
+  window.addEventListener('scroll',function(){
+    if(window.scrollY>560){toTop.classList.add('show');}
+    else{toTop.classList.remove('show');}
+  },{passive:true});
+  toTop.addEventListener('click',function(){
+    window.scrollTo({top:0,behavior:'smooth'});
+  });
+
+  var links=document.querySelectorAll('nav.menu a');
+  var secs=[];
+  links.forEach(function(a){
+    var id=a.getAttribute('href');
+    if(id&&id.charAt(0)==='#'){
+      var el=document.querySelector(id);
+      if(el)secs.push({el:el,a:a});
+    }
+  });
+  if('IntersectionObserver' in window){
+    var io=new IntersectionObserver(function(entries){
+      entries.forEach(function(en){
+        if(en.isIntersecting){
+          secs.forEach(function(s){s.a.classList.toggle('on',s.el===en.target);});
+        }
+      });
+    },{rootMargin:'-45% 0px -50% 0px'});
+    secs.forEach(function(s){io.observe(s.el);});
+  }
+})();
+</script>
+</body>
+             </html>
